@@ -4,7 +4,7 @@ const PORT = process.env.PORT || 3000;
 const environment = process.env.APP_ENV || 'local';
 
 app.get('/', (req, res) => {
-  res.status(200).json({ message: 'Secure Lab App', environment });
+  res.status(200).json({ message: 'Secure Lab App - Specialization Security Lab', environment });
 });
 
 app.get('/health', (req, res) => {
